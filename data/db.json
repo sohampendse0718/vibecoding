@@ -1,12 +1,12 @@
 {
   "menuItems": [
     {
-      "id": "57053495-54de-4539-811d-4e46737508e2",
-      "name": "Samosa",
-      "category": "Food",
-      "price": 20.0,
+      "id": "a6615289-93e3-43a9-93c5-5f6b7229c5d1",
+      "name": "Hot Chocolate",
+      "category": "Coffee",
+      "price": 200.0,
       "description": "",
-      "imageUrl": "/uploads/1776839263129-cf83aa77.jpg"
+      "imageUrl": "/uploads/1776840794577-0141c551.webp"
     },
     {
       "id": "coffee-cappuccino",
@@ -27,11 +27,49 @@
   ],
   "todaySpecial": {
     "title": "Samosa",
-    "description": "Savour the essence of our Samosa, a culinary gem prepared fresh daily by our head chef \u2014 one bite and you'll understand why it's today's star.",
+    "description": "Savor the essence of our Samosa, a culinary gem prepared fresh daily by our head chef.",
     "price": 220.0,
-    "imageUrl": "/uploads/1776839504877-58af4625.jpg"
+    "imageUrl": "/uploads/1776840683411-aee2bc8d.jpg"
   },
   "orders": [
+    {
+      "id": "ORD-027798",
+      "customerName": "Soham",
+      "tableNumber": "2",
+      "items": [
+        {
+          "id": "a6615289-93e3-43a9-93c5-5f6b7229c5d1",
+          "name": "Hot Chocolate",
+          "category": "Coffee",
+          "price": 200,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 200.0,
+      "tax": 10.0,
+      "total": 210.0,
+      "status": "new",
+      "createdAt": "2026-04-22T12:27:07.798322Z"
+    },
+    {
+      "id": "ORD-515028",
+      "customerName": "Soham",
+      "tableNumber": "2",
+      "items": [
+        {
+          "id": "food-grilled-sandwich",
+          "name": "Grilled Sandwich",
+          "category": "Food",
+          "price": 180,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 180.0,
+      "tax": 9.0,
+      "total": 189.0,
+      "status": "done",
+      "createdAt": "2026-04-22T12:18:35.028601Z"
+    },
     {
       "id": "ORD-574812",
       "customerName": "Soham",
