@@ -1,0 +1,55 @@
+{
+  "menuItems": [
+    {
+      "id": "57053495-54de-4539-811d-4e46737508e2",
+      "name": "Samosa",
+      "category": "Food",
+      "price": 20.0,
+      "description": "",
+      "imageUrl": "/uploads/1776839263129-cf83aa77.jpg"
+    },
+    {
+      "id": "coffee-cappuccino",
+      "name": "Cappuccino",
+      "category": "Coffee",
+      "price": 160,
+      "description": "Espresso, steamed milk and foam.",
+      "imageUrl": ""
+    },
+    {
+      "id": "food-grilled-sandwich",
+      "name": "Grilled Sandwich",
+      "category": "Food",
+      "price": 180,
+      "description": "Toasted sandwich with vegetables and cheese.",
+      "imageUrl": ""
+    }
+  ],
+  "todaySpecial": {
+    "title": "Samosa",
+    "description": "Savour the essence of our Samosa, a culinary gem prepared fresh daily by our head chef \u2014 one bite and you'll understand why it's today's star.",
+    "price": 220.0,
+    "imageUrl": "/uploads/1776839504877-58af4625.jpg"
+  },
+  "orders": [
+    {
+      "id": "ORD-574812",
+      "customerName": "Soham",
+      "tableNumber": "1",
+      "items": [
+        {
+          "id": "57053495-54de-4539-811d-4e46737508e2",
+          "name": "Samosa",
+          "category": "Food",
+          "price": 20,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 20.0,
+      "tax": 1.0,
+      "total": 21.0,
+      "status": "done",
+      "createdAt": "2026-04-22T12:02:54.812253Z"
+    }
+  ]
+}
